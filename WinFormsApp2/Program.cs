@@ -12,8 +12,8 @@ namespace WinFormsApp2
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             var form = new Form1();
-            form.WindowState = FormWindowState.Maximized;
-            form.Size = Screen.PrimaryScreen.Bounds.Size;
+            //form.WindowState = FormWindowState.Maximized;
+            form.Size = Model.sizeApp;
             Application.Run(form);
         }
     }
